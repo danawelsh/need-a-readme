@@ -48,4 +48,8 @@ N/A
 ## Questions?
 For any questions, please contact me!
 
+GitHub: https://github.com/danawelsh
+
+Deployed Repo: https://danawelsh.github.io/need-a-readme/
+
 Email: danawelsh17@yahoo.com
