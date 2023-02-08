@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./generateMarkdown")
 
 const questions = [
     {
@@ -67,7 +67,7 @@ const questions = [
 const handleResponse = (response) => {
     const template = generateMarkdown(response)
     console.log(template);
-    writeToFile('./dist/README.md', template);
+    writeToFile('./assets/README.md', template);
 }
 
 // TODO: Create a function to write README file
