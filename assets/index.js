@@ -67,7 +67,7 @@ const questions = [
 const handleResponse = (response) => {
     const template = generateMarkdown(response)
     console.log(template);
-    writeToFile('./assets/README.md', template);
+    writeToFile('./README.md', template);
 }
 
 // TODO: Create a function to write README file
