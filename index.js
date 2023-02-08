@@ -38,8 +38,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'If applicable, provide guidelines on how others may contribute to your application.',
-        name: 'contributing',
+        message: 'If applicable, provide information about any and all contributors to the application.',
+        name: 'contributors',
     },
     {
         type: 'list',
