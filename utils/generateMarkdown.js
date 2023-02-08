@@ -74,7 +74,7 @@ function generateMarkdown(data) {
   *Instructions on how to use my application:*
     ${data.usage}
 
-  ## Contributing
+  ## Contributors
     ${data.contributing}
   
   ## License
